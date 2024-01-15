@@ -162,7 +162,7 @@ function AppointmentForm() {
         <p>© 2013-2023 Health+. All rights reserved.</p>
       </div>
 
-      <ToastContainer autoClose={5000} limit={1} closeButton={false} />
+      <ToastContainer autoClose={10000} limit={2} closeButton={false} />
     </div>
   );
 }
